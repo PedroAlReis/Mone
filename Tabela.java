@@ -17,7 +17,7 @@ public class Tabela {
         model.addColumn ("Nome");
         model.addColumn ("Editora");
         model.addColumn ("Ano de Publicação");
-        model.addColumn ("Autor");
+        model.addColumn ("Author");
 
         JTable table = new JTable(model);
         JScrollPane scrollPane = new JScrollPane(table);
